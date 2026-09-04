@@ -8,7 +8,7 @@ interface Nota {
   criadoEm: string;
 }
 
-const API_URL = "http://localhost:3000/api/notes";
+const API_URL = "https://api-notes-12qm.onrender.com/api/notes";
 
 function App() {
   const [notas, setNotas] = useState<Nota[]>([]);
