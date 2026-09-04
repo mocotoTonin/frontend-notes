@@ -46,3 +46,37 @@ API REST - Express.js
         |
         v
    data.json
+
+Projeto
+
+O frontend foi desenvolvido utilizando React com TypeScript e TSX, permitindo a criação de componentes e organização da interface da aplicação.
+
+Deploy
+
+A aplicação foi publicada utilizando a Vercel.
+
+Aplicação online:
+
+https://frontend-notes-eosin.vercel.app/
+
+Repositório
+
+GitHub:
+
+https://github.com/mocotoTonin/frontend-notes
+
+API
+
+Repositório do Backend:
+
+https://github.com/mocotoTonin/api-notes
+
+API online:
+
+https://api-notes-12qm.onrender.com/api/notes
+
+Objetivo da Atividade
+
+O objetivo foi desenvolver uma aplicação React capaz de consumir uma API REST e realizar operações de criação, leitura, atualização e exclusão de dados.
+
+A atividade permitiu praticar a integração entre Front-end e Back-end, além do uso de TypeScript, APIs REST, GitHub e deploy utilizando a Vercel.
