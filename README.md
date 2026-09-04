@@ -1,6 +1,3 @@
-# `frontend-notes/README.md`
-
-```markdown
 # Frontend Notes
 
 Aplicação Web desenvolvida durante a Aula 05 da disciplina de Frameworks Front-end.
@@ -50,6 +47,7 @@ API REST - Express.js
         |
         v
    data.json
+```
 Projeto
 
 O frontend foi desenvolvido utilizando React com TypeScript e TSX, permitindo a criação de componentes e organização da interface da aplicação.
