@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# Frontend Notes
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação Web desenvolvida durante a Aula 05 da disciplina de Frameworks Front-end.
 
-Currently, two official plugins are available:
+O projeto consiste em um sistema de gerenciamento de notas desenvolvido com React e TypeScript, integrado a uma API REST desenvolvida com Node.js e Express.js.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologias
 
-## React Compiler
+- React
+- TypeScript
+- TSX
+- Vite
+- CSS
+- Node.js
+- Express.js
+- API REST
+- Git e GitHub
+- Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the Oxlint configuration
+A aplicação permite:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Criar novas notas;
+- Visualizar notas cadastradas;
+- Editar notas;
+- Excluir notas;
+- Consumir dados através de uma API REST;
+- Interagir com o backend por meio de requisições HTTP.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## Integração com a API
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+O frontend realiza requisições para a API hospedada no Render.
+
+**API utilizada:**
+
+https://api-notes-12qm.onrender.com/api/notes
+
+Fluxo da aplicação:
+
+React + TypeScript
+        |
+        | Requisições HTTP
+        v
+API REST - Express.js
+        |
+        v
+   data.json
